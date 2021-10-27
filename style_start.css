@@ -1,0 +1,19 @@
+body {
+  background-image:url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 50%;
+  margin-top: 10%;
+  transition: transform 0.1s;
+}
+
+.logo:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
